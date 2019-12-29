@@ -14,9 +14,10 @@ I created this because after trying many different tools to connect to wifi netw
 * List saved network profiles
 * Connect to saved networks
 * Setup new networks
+* Creation of hotspots
 
 # Requirements
 
-No libraries are needed just the [nmcli](http://manpages.ubuntu.com/manpages/bionic/en/man1/nmcli.1.html) tool
+No libraries are needed just the [nmcli](http://manpages.ubuntu.com/manpages/bionic/en/man1/nmcli.1.html) tool, and if you want to create hotspots then [dnsmasq](https://wiki.debian.org/dnsmasq) is also required.
 
 [cover]: https://i.imgur.com/x7HOggm.png "Easy Wifi Cover"
