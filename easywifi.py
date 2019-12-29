@@ -1,5 +1,7 @@
 import subprocess
 from getpass import getpass
+from shutil import which
+from sys import exit
 class bcolors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
@@ -19,6 +21,9 @@ print(" \___|\__,_|___/\__, | \_/\_/ |_|_| |_|")
 print("                 __/ |                 ")
 print("                |___/                  ")
 print(bcolors.ENDC)
+if which("nmcli") is None:
+    print(bcolors.FAIL+"easywifi requires NetworkManager, please install it before using this!"+bcolors.ENDC)
+    exit()
 while True:
     print("\n")
     print("=======================================")
