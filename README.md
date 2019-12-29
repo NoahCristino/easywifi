@@ -20,4 +20,4 @@ I created this because after trying many different tools to connect to wifi netw
 
 No libraries are needed just the [nmcli](http://manpages.ubuntu.com/manpages/bionic/en/man1/nmcli.1.html) tool, and if you want to create hotspots then [dnsmasq](https://wiki.debian.org/dnsmasq) is also required.
 
-[cover]: https://i.imgur.com/x7HOggm.png "Easy Wifi Cover"
+[cover]: https://i.imgur.com/Y8odLqa.png "Easy Wifi Cover"
