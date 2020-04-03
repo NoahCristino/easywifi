@@ -25,7 +25,7 @@ No libraries are needed just the [nmcli](http://manpages.ubuntu.com/manpages/bio
 # Installation
 
 Install "requirements" then download the python script and put in the path
-Arch Linux users can install from the Aur (https://aur.archlinux.org/packages/easywifi-git/)
+Arch Linux users can install from the [AUR](https://aur.archlinux.org/packages/easywifi-git/)
 
 # Reviews/Tutorials
 
